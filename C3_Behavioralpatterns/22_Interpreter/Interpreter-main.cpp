@@ -2,7 +2,7 @@
 #include "Analyzer.h"
 #include "Expression.h"
 
-void main()
+int main()
 {
 	std::string strExpression = "a+b-c+d";
 	std::map<char, int> var;

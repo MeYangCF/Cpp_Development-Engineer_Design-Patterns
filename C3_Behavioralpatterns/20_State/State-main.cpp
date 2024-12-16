@@ -1,7 +1,7 @@
 #include "State.h"
 #include "Person.h"
 
-void main()
+int main()
 {
 	Person* person = new Person(StandState::Instance());
 	person->MoveOn();

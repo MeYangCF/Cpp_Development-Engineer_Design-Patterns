@@ -1,6 +1,6 @@
 #include "MovieFacade.h"
 
-void main()
+int main()
 {
 	MovieFacade* pMovieFacade = new MovieFacade();
 	pMovieFacade->OpenMovie();

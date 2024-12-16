@@ -1,6 +1,6 @@
 #include "Component.h"
 
-void main()
+int main()
 {
 	Component* pRoot = new CompositeComponent("Root");
 

@@ -1,7 +1,7 @@
 #include "Person.h"
 #include "Mediator.h"
 
-void main()
+int main()
 {
 	Mediator* pMediator = new HouseMediator();
 	Person* pPerson1 = new Renter(pMediator, "уехЩ");

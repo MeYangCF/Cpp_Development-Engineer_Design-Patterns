@@ -1,7 +1,7 @@
 #include "Memento.h"
 #include "Originator.h"
 
-void main()
+int main()
 {
 	Originator* pOriginator = new Originator("Walking¡­¡­");
 

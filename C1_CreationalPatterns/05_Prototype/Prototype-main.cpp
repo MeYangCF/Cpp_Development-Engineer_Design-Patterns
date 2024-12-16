@@ -1,6 +1,6 @@
 #include "Product.h"
 
-void main()
+int main()
 {
 	Product* product =  new NamedProduct("hp computer");
 

@@ -2,7 +2,7 @@
 #include "ConcreteIterator.h"
 #include <iostream>
 
-void main()
+int main()
 {
 	Aggregate<int>* pAggr = new ConcreteAggregate<int>();
 	pAggr->Push(new int(1));

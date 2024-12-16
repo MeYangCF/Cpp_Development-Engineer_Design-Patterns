@@ -1,7 +1,7 @@
 #include "HouseDirector.h"
 #include "HouseBuilder.h"
 
-void main()
+int main()
 {
 	HouseBuilder* pHouseBuilder = new StoneHouseBuilder();
 	HouseDirector* pHouseDirector = new HouseDirector(pHouseBuilder);

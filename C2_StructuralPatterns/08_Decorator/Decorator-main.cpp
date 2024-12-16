@@ -11,7 +11,7 @@
 采用装饰模式，总类数为，1+n+1+m
 */
 
-void main()
+int main()
 {
 	Canvas* cvs = new RedCanvas();
 	Decorator* dcr = new BorderCanvas(cvs);

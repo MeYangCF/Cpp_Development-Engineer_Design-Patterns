@@ -1,6 +1,6 @@
 #include "Template.h"
 
-void main()
+int main()
 {
 	TemplateCookedRice* pTemplate = new Porridge(50);
 	pTemplate->Cooking();

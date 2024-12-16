@@ -1,7 +1,7 @@
 #include "Visitor.h"
 #include "Element.h"
 
-void main()
+int main()
 {
 	ElementA elementA;
 	ConcreteVisitor visitor;

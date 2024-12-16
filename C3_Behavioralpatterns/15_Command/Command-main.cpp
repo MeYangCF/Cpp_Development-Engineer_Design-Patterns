@@ -1,7 +1,7 @@
 #include "Command.h"
 #include "Image.h"
 
-void main()
+int main()
 {
 	Image* pImage = new Image(400, 600);
 	ImageProcessCommand ipc(pImage);

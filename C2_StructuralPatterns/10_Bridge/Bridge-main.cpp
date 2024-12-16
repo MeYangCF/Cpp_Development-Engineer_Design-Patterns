@@ -1,7 +1,7 @@
 #include "Paint.h"
 #include "Shape.h"
 
-void main()
+int main()
 {
 	Paint* pt = new RedPaint();
 	Shape* shp = new Circle(pt);

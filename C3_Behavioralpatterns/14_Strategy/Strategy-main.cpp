@@ -1,7 +1,7 @@
 #include "Sales.h"
 #include <iostream>
 
-void main()
+int main()
 {
 	SalesDiscount* pDiscount = new VIPDiscount();
 	

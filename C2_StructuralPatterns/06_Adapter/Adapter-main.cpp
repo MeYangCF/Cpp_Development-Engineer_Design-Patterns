@@ -1,7 +1,7 @@
 #include "Adaptee.h"
 #include "ITarget.h"
 
-void main()
+int main()
 {
 	IAdaptee* pAdaptee = new OldClass();
 	ITarget* pItarget = new Adapter(pAdaptee);

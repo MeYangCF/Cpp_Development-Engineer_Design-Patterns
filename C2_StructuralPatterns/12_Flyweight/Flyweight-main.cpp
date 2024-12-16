@@ -1,7 +1,7 @@
 #include "Toolbox.h"
 #include "Tool.h"
 
-void main()
+int main()
 {
 	ToolFactory* pFac = new ToolFactory();
 	ToolBox* pBox = new ToolBox(pFac);

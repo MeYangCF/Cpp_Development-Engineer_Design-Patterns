@@ -67,7 +67,7 @@ private:
 
 };
 
-void main()
+int main()
 {
 	Task task;
 

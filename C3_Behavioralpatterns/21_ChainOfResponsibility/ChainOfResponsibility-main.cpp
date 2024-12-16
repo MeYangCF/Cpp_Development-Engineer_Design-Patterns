@@ -1,7 +1,7 @@
 #include "Request.h"
 #include "Handler.h"
 
-void main()
+int main()
 {
 	Handler* pBoss = new Boss(nullptr);
 	Handler* pManager = new Manager(pBoss);
