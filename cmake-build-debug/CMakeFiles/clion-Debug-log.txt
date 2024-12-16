@@ -1,4 +1,5 @@
 D:\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=D:/CLion/bin/ninja/win/x64/ninja.exe -G Ninja -S F:\CLion\Cpp_Development-Engineer_Design-Patterns -B F:\CLion\Cpp_Development-Engineer_Design-Patterns\cmake-build-debug
+-- [main.cpp] will be compiled to '.runtime/main.exe'
 -- [CMakeCXXCompilerId.cpp] will be compiled to '.runtime/CMakeCXXCompilerId.exe'
 -- Configuring done (0.2s)
 -- Generating done (0.0s)

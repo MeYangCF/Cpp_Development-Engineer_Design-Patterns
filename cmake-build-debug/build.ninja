@@ -41,6 +41,39 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = F$:/CLion/Cpp_Development-Engineer_Design-Patterns/cmake-build-debug/
 # =============================================================================
+# Object build statements for EXECUTABLE target main
+
+
+#############################################
+# Order-only phony target for main
+
+build cmake_object_order_depends_target_main: phony || CMakeFiles/main.dir
+
+build CMakeFiles/main.dir/C1_CreationalPatterns/01_Singleton/main.cpp.obj: CXX_COMPILER__main_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Design-Patterns/C1_CreationalPatterns/01_Singleton/main.cpp || cmake_object_order_depends_target_main
+  DEP_FILE = CMakeFiles\main.dir\C1_CreationalPatterns\01_Singleton\main.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\main.dir
+  OBJECT_FILE_DIR = CMakeFiles\main.dir\C1_CreationalPatterns\01_Singleton
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target main
+
+
+#############################################
+# Link the executable .runtime\main.exe
+
+build .runtime/main.exe: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/C1_CreationalPatterns/01_Singleton/main.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\main.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = .runtime\main.exe
+  TARGET_IMPLIB = .archive\libmain.dll.a
+  TARGET_PDB = main.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target CMakeCXXCompilerId
 
 
@@ -103,6 +136,10 @@ build CMakeCXXCompilerId: phony .runtime/CMakeCXXCompilerId.exe
 
 build CMakeCXXCompilerId.exe: phony .runtime/CMakeCXXCompilerId.exe
 
+build main: phony .runtime/main.exe
+
+build main.exe: phony .runtime/main.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -111,7 +148,7 @@ build CMakeCXXCompilerId.exe: phony .runtime/CMakeCXXCompilerId.exe
 #############################################
 # Folder: F:/CLion/Cpp_Development-Engineer_Design-Patterns/cmake-build-debug
 
-build all: phony .runtime/CMakeCXXCompilerId.exe
+build all: phony .runtime/main.exe .runtime/CMakeCXXCompilerId.exe
 
 # =============================================================================
 # Built-in targets
