@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "Cpp_Development_Engineer_Design_Patterns",
+					"name" : "Cpp_Development-Engineer_Design-Patterns",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "Cpp_Development_Engineer_Design_Patterns::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Cpp_Development_Engineer_Design_Patterns-Debug-a842686037d021d323a3.json",
-					"name" : "Cpp_Development_Engineer_Design_Patterns",
+					"id" : "CMakeCXXCompilerId::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CMakeCXXCompilerId-Debug-1747d3511c6ea07a078f.json",
+					"name" : "CMakeCXXCompilerId",
 					"projectIndex" : 0
 				}
 			]
