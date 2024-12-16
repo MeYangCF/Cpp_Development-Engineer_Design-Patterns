@@ -1,0 +1,5 @@
+# ninja log v5
+2	296	7560400511764869	CMakeFiles/AbstractFactory-main.dir/C1_CreationalPatterns/03_AbstractFactory/AbstractFactory-main.cpp.obj	ae6642c515bc3c9
+299	421	7560400512994767	.runtime/AbstractFactory-main.exe	da4a02dfc370c03d
+18	291	7560404845619896	CMakeFiles/AbstractFactory-main.dir/C1_CreationalPatterns/03_AbstractFactory/AbstractFactory-main.cpp.obj	ae6642c515bc3c9
+291	395	7560404846637491	.runtime/AbstractFactory-main.exe	da4a02dfc370c03d

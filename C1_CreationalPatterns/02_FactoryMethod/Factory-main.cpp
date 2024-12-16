@@ -3,7 +3,7 @@
 #include "CarFactory.h"
 #include "CarProduct.h"
 
-void main()
+int main()
 {
 	CarFactory* pFac = new CarAudiFactory();
 	CarProduct* pCar = pFac->CreateCar();

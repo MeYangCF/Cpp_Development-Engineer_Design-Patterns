@@ -29,6 +29,6 @@ D:\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_P
 -- [Element.cpp] will be compiled to '.runtime/Element.exe'
 -- [Visitor-main.cpp] will be compiled to '.runtime/Visitor-main.exe'
 -- [CMakeCXXCompilerId.cpp] will be compiled to '.runtime/CMakeCXXCompilerId.exe'
--- Configuring done (0.2s)
+-- Configuring done (0.3s)
 -- Generating done (0.0s)
 -- Build files have been written to: F:/CLion/Cpp_Development-Engineer_Design-Patterns/cmake-build-debug

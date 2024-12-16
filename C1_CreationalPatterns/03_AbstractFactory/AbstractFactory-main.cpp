@@ -1,7 +1,7 @@
 #include "Product.h"
 #include "Factory.h"
 
-void main()
+int main()
 {
 	DBFactory* pFac = new SQLDBFactory();
 
