@@ -41,37 +41,961 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = F$:/CLion/Cpp_Development-Engineer_Design-Patterns/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target main
+# Object build statements for EXECUTABLE target Singleton-main
 
 
 #############################################
-# Order-only phony target for main
+# Order-only phony target for Singleton-main
 
-build cmake_object_order_depends_target_main: phony || CMakeFiles/main.dir
+build cmake_object_order_depends_target_Singleton-main: phony || CMakeFiles/Singleton-main.dir
 
-build CMakeFiles/main.dir/C1_CreationalPatterns/01_Singleton/main.cpp.obj: CXX_COMPILER__main_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Design-Patterns/C1_CreationalPatterns/01_Singleton/main.cpp || cmake_object_order_depends_target_main
-  DEP_FILE = CMakeFiles\main.dir\C1_CreationalPatterns\01_Singleton\main.cpp.obj.d
+build CMakeFiles/Singleton-main.dir/C1_CreationalPatterns/01_Singleton/Singleton-main.cpp.obj: CXX_COMPILER__Singleton-main_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Design-Patterns/C1_CreationalPatterns/01_Singleton/Singleton-main.cpp || cmake_object_order_depends_target_Singleton-main
+  DEP_FILE = CMakeFiles\Singleton-main.dir\C1_CreationalPatterns\01_Singleton\Singleton-main.cpp.obj.d
   FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\main.dir
-  OBJECT_FILE_DIR = CMakeFiles\main.dir\C1_CreationalPatterns\01_Singleton
+  OBJECT_DIR = CMakeFiles\Singleton-main.dir
+  OBJECT_FILE_DIR = CMakeFiles\Singleton-main.dir\C1_CreationalPatterns\01_Singleton
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target main
+# Link build statements for EXECUTABLE target Singleton-main
 
 
 #############################################
-# Link the executable .runtime\main.exe
+# Link the executable .runtime\Singleton-main.exe
 
-build .runtime/main.exe: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/C1_CreationalPatterns/01_Singleton/main.cpp.obj
+build .runtime/Singleton-main.exe: CXX_EXECUTABLE_LINKER__Singleton-main_Debug CMakeFiles/Singleton-main.dir/C1_CreationalPatterns/01_Singleton/Singleton-main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\main.dir
+  OBJECT_DIR = CMakeFiles\Singleton-main.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = .runtime\main.exe
-  TARGET_IMPLIB = .archive\libmain.dll.a
-  TARGET_PDB = main.exe.dbg
+  TARGET_FILE = .runtime\Singleton-main.exe
+  TARGET_IMPLIB = .archive\libSingleton-main.dll.a
+  TARGET_PDB = Singleton-main.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Factory-main
+
+
+#############################################
+# Order-only phony target for Factory-main
+
+build cmake_object_order_depends_target_Factory-main: phony || CMakeFiles/Factory-main.dir
+
+build CMakeFiles/Factory-main.dir/C1_CreationalPatterns/02_FactoryMethod/Factory-main.cpp.obj: CXX_COMPILER__Factory-main_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Design-Patterns/C1_CreationalPatterns/02_FactoryMethod/Factory-main.cpp || cmake_object_order_depends_target_Factory-main
+  DEP_FILE = CMakeFiles\Factory-main.dir\C1_CreationalPatterns\02_FactoryMethod\Factory-main.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Factory-main.dir
+  OBJECT_FILE_DIR = CMakeFiles\Factory-main.dir\C1_CreationalPatterns\02_FactoryMethod
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Factory-main
+
+
+#############################################
+# Link the executable .runtime\Factory-main.exe
+
+build .runtime/Factory-main.exe: CXX_EXECUTABLE_LINKER__Factory-main_Debug CMakeFiles/Factory-main.dir/C1_CreationalPatterns/02_FactoryMethod/Factory-main.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Factory-main.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = .runtime\Factory-main.exe
+  TARGET_IMPLIB = .archive\libFactory-main.dll.a
+  TARGET_PDB = Factory-main.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target AbstractFactory-main
+
+
+#############################################
+# Order-only phony target for AbstractFactory-main
+
+build cmake_object_order_depends_target_AbstractFactory-main: phony || CMakeFiles/AbstractFactory-main.dir
+
+build CMakeFiles/AbstractFactory-main.dir/C1_CreationalPatterns/03_AbstractFactory/AbstractFactory-main.cpp.obj: CXX_COMPILER__AbstractFactory-main_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Design-Patterns/C1_CreationalPatterns/03_AbstractFactory/AbstractFactory-main.cpp || cmake_object_order_depends_target_AbstractFactory-main
+  DEP_FILE = CMakeFiles\AbstractFactory-main.dir\C1_CreationalPatterns\03_AbstractFactory\AbstractFactory-main.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\AbstractFactory-main.dir
+  OBJECT_FILE_DIR = CMakeFiles\AbstractFactory-main.dir\C1_CreationalPatterns\03_AbstractFactory
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target AbstractFactory-main
+
+
+#############################################
+# Link the executable .runtime\AbstractFactory-main.exe
+
+build .runtime/AbstractFactory-main.exe: CXX_EXECUTABLE_LINKER__AbstractFactory-main_Debug CMakeFiles/AbstractFactory-main.dir/C1_CreationalPatterns/03_AbstractFactory/AbstractFactory-main.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\AbstractFactory-main.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = .runtime\AbstractFactory-main.exe
+  TARGET_IMPLIB = .archive\libAbstractFactory-main.dll.a
+  TARGET_PDB = AbstractFactory-main.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Builder-main
+
+
+#############################################
+# Order-only phony target for Builder-main
+
+build cmake_object_order_depends_target_Builder-main: phony || CMakeFiles/Builder-main.dir
+
+build CMakeFiles/Builder-main.dir/C1_CreationalPatterns/04_Builder/Builder-main.cpp.obj: CXX_COMPILER__Builder-main_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Design-Patterns/C1_CreationalPatterns/04_Builder/Builder-main.cpp || cmake_object_order_depends_target_Builder-main
+  DEP_FILE = CMakeFiles\Builder-main.dir\C1_CreationalPatterns\04_Builder\Builder-main.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Builder-main.dir
+  OBJECT_FILE_DIR = CMakeFiles\Builder-main.dir\C1_CreationalPatterns\04_Builder
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Builder-main
+
+
+#############################################
+# Link the executable .runtime\Builder-main.exe
+
+build .runtime/Builder-main.exe: CXX_EXECUTABLE_LINKER__Builder-main_Debug CMakeFiles/Builder-main.dir/C1_CreationalPatterns/04_Builder/Builder-main.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Builder-main.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = .runtime\Builder-main.exe
+  TARGET_IMPLIB = .archive\libBuilder-main.dll.a
+  TARGET_PDB = Builder-main.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Prototype-main
+
+
+#############################################
+# Order-only phony target for Prototype-main
+
+build cmake_object_order_depends_target_Prototype-main: phony || CMakeFiles/Prototype-main.dir
+
+build CMakeFiles/Prototype-main.dir/C1_CreationalPatterns/05_Prototype/Prototype-main.cpp.obj: CXX_COMPILER__Prototype-main_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Design-Patterns/C1_CreationalPatterns/05_Prototype/Prototype-main.cpp || cmake_object_order_depends_target_Prototype-main
+  DEP_FILE = CMakeFiles\Prototype-main.dir\C1_CreationalPatterns\05_Prototype\Prototype-main.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Prototype-main.dir
+  OBJECT_FILE_DIR = CMakeFiles\Prototype-main.dir\C1_CreationalPatterns\05_Prototype
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Prototype-main
+
+
+#############################################
+# Link the executable .runtime\Prototype-main.exe
+
+build .runtime/Prototype-main.exe: CXX_EXECUTABLE_LINKER__Prototype-main_Debug CMakeFiles/Prototype-main.dir/C1_CreationalPatterns/05_Prototype/Prototype-main.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Prototype-main.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = .runtime\Prototype-main.exe
+  TARGET_IMPLIB = .archive\libPrototype-main.dll.a
+  TARGET_PDB = Prototype-main.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Adapter-main
+
+
+#############################################
+# Order-only phony target for Adapter-main
+
+build cmake_object_order_depends_target_Adapter-main: phony || CMakeFiles/Adapter-main.dir
+
+build CMakeFiles/Adapter-main.dir/C2_StructuralPatterns/06_Adapter/Adapter-main.cpp.obj: CXX_COMPILER__Adapter-main_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Design-Patterns/C2_StructuralPatterns/06_Adapter/Adapter-main.cpp || cmake_object_order_depends_target_Adapter-main
+  DEP_FILE = CMakeFiles\Adapter-main.dir\C2_StructuralPatterns\06_Adapter\Adapter-main.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Adapter-main.dir
+  OBJECT_FILE_DIR = CMakeFiles\Adapter-main.dir\C2_StructuralPatterns\06_Adapter
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Adapter-main
+
+
+#############################################
+# Link the executable .runtime\Adapter-main.exe
+
+build .runtime/Adapter-main.exe: CXX_EXECUTABLE_LINKER__Adapter-main_Debug CMakeFiles/Adapter-main.dir/C2_StructuralPatterns/06_Adapter/Adapter-main.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Adapter-main.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = .runtime\Adapter-main.exe
+  TARGET_IMPLIB = .archive\libAdapter-main.dll.a
+  TARGET_PDB = Adapter-main.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Proxy-main
+
+
+#############################################
+# Order-only phony target for Proxy-main
+
+build cmake_object_order_depends_target_Proxy-main: phony || CMakeFiles/Proxy-main.dir
+
+build CMakeFiles/Proxy-main.dir/C2_StructuralPatterns/07_Proxy/Proxy-main.cpp.obj: CXX_COMPILER__Proxy-main_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Design-Patterns/C2_StructuralPatterns/07_Proxy/Proxy-main.cpp || cmake_object_order_depends_target_Proxy-main
+  DEP_FILE = CMakeFiles\Proxy-main.dir\C2_StructuralPatterns\07_Proxy\Proxy-main.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Proxy-main.dir
+  OBJECT_FILE_DIR = CMakeFiles\Proxy-main.dir\C2_StructuralPatterns\07_Proxy
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Proxy-main
+
+
+#############################################
+# Link the executable .runtime\Proxy-main.exe
+
+build .runtime/Proxy-main.exe: CXX_EXECUTABLE_LINKER__Proxy-main_Debug CMakeFiles/Proxy-main.dir/C2_StructuralPatterns/07_Proxy/Proxy-main.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Proxy-main.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = .runtime\Proxy-main.exe
+  TARGET_IMPLIB = .archive\libProxy-main.dll.a
+  TARGET_PDB = Proxy-main.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Proxy
+
+
+#############################################
+# Order-only phony target for Proxy
+
+build cmake_object_order_depends_target_Proxy: phony || CMakeFiles/Proxy.dir
+
+build CMakeFiles/Proxy.dir/C2_StructuralPatterns/07_Proxy/Proxy.cpp.obj: CXX_COMPILER__Proxy_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Design-Patterns/C2_StructuralPatterns/07_Proxy/Proxy.cpp || cmake_object_order_depends_target_Proxy
+  DEP_FILE = CMakeFiles\Proxy.dir\C2_StructuralPatterns\07_Proxy\Proxy.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Proxy.dir
+  OBJECT_FILE_DIR = CMakeFiles\Proxy.dir\C2_StructuralPatterns\07_Proxy
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Proxy
+
+
+#############################################
+# Link the executable .runtime\Proxy.exe
+
+build .runtime/Proxy.exe: CXX_EXECUTABLE_LINKER__Proxy_Debug CMakeFiles/Proxy.dir/C2_StructuralPatterns/07_Proxy/Proxy.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Proxy.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = .runtime\Proxy.exe
+  TARGET_IMPLIB = .archive\libProxy.dll.a
+  TARGET_PDB = Proxy.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target SubjectImpl
+
+
+#############################################
+# Order-only phony target for SubjectImpl
+
+build cmake_object_order_depends_target_SubjectImpl: phony || CMakeFiles/SubjectImpl.dir
+
+build CMakeFiles/SubjectImpl.dir/C2_StructuralPatterns/07_Proxy/SubjectImpl.cpp.obj: CXX_COMPILER__SubjectImpl_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Design-Patterns/C2_StructuralPatterns/07_Proxy/SubjectImpl.cpp || cmake_object_order_depends_target_SubjectImpl
+  DEP_FILE = CMakeFiles\SubjectImpl.dir\C2_StructuralPatterns\07_Proxy\SubjectImpl.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\SubjectImpl.dir
+  OBJECT_FILE_DIR = CMakeFiles\SubjectImpl.dir\C2_StructuralPatterns\07_Proxy
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target SubjectImpl
+
+
+#############################################
+# Link the executable .runtime\SubjectImpl.exe
+
+build .runtime/SubjectImpl.exe: CXX_EXECUTABLE_LINKER__SubjectImpl_Debug CMakeFiles/SubjectImpl.dir/C2_StructuralPatterns/07_Proxy/SubjectImpl.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\SubjectImpl.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = .runtime\SubjectImpl.exe
+  TARGET_IMPLIB = .archive\libSubjectImpl.dll.a
+  TARGET_PDB = SubjectImpl.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Decorator-main
+
+
+#############################################
+# Order-only phony target for Decorator-main
+
+build cmake_object_order_depends_target_Decorator-main: phony || CMakeFiles/Decorator-main.dir
+
+build CMakeFiles/Decorator-main.dir/C2_StructuralPatterns/08_Decorator/Decorator-main.cpp.obj: CXX_COMPILER__Decorator-main_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Design-Patterns/C2_StructuralPatterns/08_Decorator/Decorator-main.cpp || cmake_object_order_depends_target_Decorator-main
+  DEP_FILE = CMakeFiles\Decorator-main.dir\C2_StructuralPatterns\08_Decorator\Decorator-main.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Decorator-main.dir
+  OBJECT_FILE_DIR = CMakeFiles\Decorator-main.dir\C2_StructuralPatterns\08_Decorator
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Decorator-main
+
+
+#############################################
+# Link the executable .runtime\Decorator-main.exe
+
+build .runtime/Decorator-main.exe: CXX_EXECUTABLE_LINKER__Decorator-main_Debug CMakeFiles/Decorator-main.dir/C2_StructuralPatterns/08_Decorator/Decorator-main.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Decorator-main.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = .runtime\Decorator-main.exe
+  TARGET_IMPLIB = .archive\libDecorator-main.dll.a
+  TARGET_PDB = Decorator-main.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Facade-main
+
+
+#############################################
+# Order-only phony target for Facade-main
+
+build cmake_object_order_depends_target_Facade-main: phony || CMakeFiles/Facade-main.dir
+
+build CMakeFiles/Facade-main.dir/C2_StructuralPatterns/09_Facade/Facade-main.cpp.obj: CXX_COMPILER__Facade-main_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Design-Patterns/C2_StructuralPatterns/09_Facade/Facade-main.cpp || cmake_object_order_depends_target_Facade-main
+  DEP_FILE = CMakeFiles\Facade-main.dir\C2_StructuralPatterns\09_Facade\Facade-main.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Facade-main.dir
+  OBJECT_FILE_DIR = CMakeFiles\Facade-main.dir\C2_StructuralPatterns\09_Facade
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Facade-main
+
+
+#############################################
+# Link the executable .runtime\Facade-main.exe
+
+build .runtime/Facade-main.exe: CXX_EXECUTABLE_LINKER__Facade-main_Debug CMakeFiles/Facade-main.dir/C2_StructuralPatterns/09_Facade/Facade-main.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Facade-main.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = .runtime\Facade-main.exe
+  TARGET_IMPLIB = .archive\libFacade-main.dll.a
+  TARGET_PDB = Facade-main.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Bridge-main
+
+
+#############################################
+# Order-only phony target for Bridge-main
+
+build cmake_object_order_depends_target_Bridge-main: phony || CMakeFiles/Bridge-main.dir
+
+build CMakeFiles/Bridge-main.dir/C2_StructuralPatterns/10_Bridge/Bridge-main.cpp.obj: CXX_COMPILER__Bridge-main_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Design-Patterns/C2_StructuralPatterns/10_Bridge/Bridge-main.cpp || cmake_object_order_depends_target_Bridge-main
+  DEP_FILE = CMakeFiles\Bridge-main.dir\C2_StructuralPatterns\10_Bridge\Bridge-main.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Bridge-main.dir
+  OBJECT_FILE_DIR = CMakeFiles\Bridge-main.dir\C2_StructuralPatterns\10_Bridge
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Bridge-main
+
+
+#############################################
+# Link the executable .runtime\Bridge-main.exe
+
+build .runtime/Bridge-main.exe: CXX_EXECUTABLE_LINKER__Bridge-main_Debug CMakeFiles/Bridge-main.dir/C2_StructuralPatterns/10_Bridge/Bridge-main.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Bridge-main.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = .runtime\Bridge-main.exe
+  TARGET_IMPLIB = .archive\libBridge-main.dll.a
+  TARGET_PDB = Bridge-main.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Composite-main
+
+
+#############################################
+# Order-only phony target for Composite-main
+
+build cmake_object_order_depends_target_Composite-main: phony || CMakeFiles/Composite-main.dir
+
+build CMakeFiles/Composite-main.dir/C2_StructuralPatterns/11_Composite/Composite-main.cpp.obj: CXX_COMPILER__Composite-main_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Design-Patterns/C2_StructuralPatterns/11_Composite/Composite-main.cpp || cmake_object_order_depends_target_Composite-main
+  DEP_FILE = CMakeFiles\Composite-main.dir\C2_StructuralPatterns\11_Composite\Composite-main.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Composite-main.dir
+  OBJECT_FILE_DIR = CMakeFiles\Composite-main.dir\C2_StructuralPatterns\11_Composite
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Composite-main
+
+
+#############################################
+# Link the executable .runtime\Composite-main.exe
+
+build .runtime/Composite-main.exe: CXX_EXECUTABLE_LINKER__Composite-main_Debug CMakeFiles/Composite-main.dir/C2_StructuralPatterns/11_Composite/Composite-main.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Composite-main.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = .runtime\Composite-main.exe
+  TARGET_IMPLIB = .archive\libComposite-main.dll.a
+  TARGET_PDB = Composite-main.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Flyweight-main
+
+
+#############################################
+# Order-only phony target for Flyweight-main
+
+build cmake_object_order_depends_target_Flyweight-main: phony || CMakeFiles/Flyweight-main.dir
+
+build CMakeFiles/Flyweight-main.dir/C2_StructuralPatterns/12_Flyweight/Flyweight-main.cpp.obj: CXX_COMPILER__Flyweight-main_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Design-Patterns/C2_StructuralPatterns/12_Flyweight/Flyweight-main.cpp || cmake_object_order_depends_target_Flyweight-main
+  DEP_FILE = CMakeFiles\Flyweight-main.dir\C2_StructuralPatterns\12_Flyweight\Flyweight-main.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Flyweight-main.dir
+  OBJECT_FILE_DIR = CMakeFiles\Flyweight-main.dir\C2_StructuralPatterns\12_Flyweight
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Flyweight-main
+
+
+#############################################
+# Link the executable .runtime\Flyweight-main.exe
+
+build .runtime/Flyweight-main.exe: CXX_EXECUTABLE_LINKER__Flyweight-main_Debug CMakeFiles/Flyweight-main.dir/C2_StructuralPatterns/12_Flyweight/Flyweight-main.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Flyweight-main.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = .runtime\Flyweight-main.exe
+  TARGET_IMPLIB = .archive\libFlyweight-main.dll.a
+  TARGET_PDB = Flyweight-main.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Observer-main
+
+
+#############################################
+# Order-only phony target for Observer-main
+
+build cmake_object_order_depends_target_Observer-main: phony || CMakeFiles/Observer-main.dir
+
+build CMakeFiles/Observer-main.dir/C3_Behavioralpatterns/13_Observer/Observer-main.cpp.obj: CXX_COMPILER__Observer-main_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Design-Patterns/C3_Behavioralpatterns/13_Observer/Observer-main.cpp || cmake_object_order_depends_target_Observer-main
+  DEP_FILE = CMakeFiles\Observer-main.dir\C3_Behavioralpatterns\13_Observer\Observer-main.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Observer-main.dir
+  OBJECT_FILE_DIR = CMakeFiles\Observer-main.dir\C3_Behavioralpatterns\13_Observer
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Observer-main
+
+
+#############################################
+# Link the executable .runtime\Observer-main.exe
+
+build .runtime/Observer-main.exe: CXX_EXECUTABLE_LINKER__Observer-main_Debug CMakeFiles/Observer-main.dir/C3_Behavioralpatterns/13_Observer/Observer-main.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Observer-main.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = .runtime\Observer-main.exe
+  TARGET_IMPLIB = .archive\libObserver-main.dll.a
+  TARGET_PDB = Observer-main.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Strategy-main
+
+
+#############################################
+# Order-only phony target for Strategy-main
+
+build cmake_object_order_depends_target_Strategy-main: phony || CMakeFiles/Strategy-main.dir
+
+build CMakeFiles/Strategy-main.dir/C3_Behavioralpatterns/14_Strategy/Strategy-main.cpp.obj: CXX_COMPILER__Strategy-main_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Design-Patterns/C3_Behavioralpatterns/14_Strategy/Strategy-main.cpp || cmake_object_order_depends_target_Strategy-main
+  DEP_FILE = CMakeFiles\Strategy-main.dir\C3_Behavioralpatterns\14_Strategy\Strategy-main.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Strategy-main.dir
+  OBJECT_FILE_DIR = CMakeFiles\Strategy-main.dir\C3_Behavioralpatterns\14_Strategy
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Strategy-main
+
+
+#############################################
+# Link the executable .runtime\Strategy-main.exe
+
+build .runtime/Strategy-main.exe: CXX_EXECUTABLE_LINKER__Strategy-main_Debug CMakeFiles/Strategy-main.dir/C3_Behavioralpatterns/14_Strategy/Strategy-main.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Strategy-main.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = .runtime\Strategy-main.exe
+  TARGET_IMPLIB = .archive\libStrategy-main.dll.a
+  TARGET_PDB = Strategy-main.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Command-main
+
+
+#############################################
+# Order-only phony target for Command-main
+
+build cmake_object_order_depends_target_Command-main: phony || CMakeFiles/Command-main.dir
+
+build CMakeFiles/Command-main.dir/C3_Behavioralpatterns/15_Command/Command-main.cpp.obj: CXX_COMPILER__Command-main_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Design-Patterns/C3_Behavioralpatterns/15_Command/Command-main.cpp || cmake_object_order_depends_target_Command-main
+  DEP_FILE = CMakeFiles\Command-main.dir\C3_Behavioralpatterns\15_Command\Command-main.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Command-main.dir
+  OBJECT_FILE_DIR = CMakeFiles\Command-main.dir\C3_Behavioralpatterns\15_Command
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Command-main
+
+
+#############################################
+# Link the executable .runtime\Command-main.exe
+
+build .runtime/Command-main.exe: CXX_EXECUTABLE_LINKER__Command-main_Debug CMakeFiles/Command-main.dir/C3_Behavioralpatterns/15_Command/Command-main.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Command-main.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = .runtime\Command-main.exe
+  TARGET_IMPLIB = .archive\libCommand-main.dll.a
+  TARGET_PDB = Command-main.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Mediator-main
+
+
+#############################################
+# Order-only phony target for Mediator-main
+
+build cmake_object_order_depends_target_Mediator-main: phony || CMakeFiles/Mediator-main.dir
+
+build CMakeFiles/Mediator-main.dir/C3_Behavioralpatterns/16_Mediator/Mediator-main.cpp.obj: CXX_COMPILER__Mediator-main_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Design-Patterns/C3_Behavioralpatterns/16_Mediator/Mediator-main.cpp || cmake_object_order_depends_target_Mediator-main
+  DEP_FILE = CMakeFiles\Mediator-main.dir\C3_Behavioralpatterns\16_Mediator\Mediator-main.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Mediator-main.dir
+  OBJECT_FILE_DIR = CMakeFiles\Mediator-main.dir\C3_Behavioralpatterns\16_Mediator
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Mediator-main
+
+
+#############################################
+# Link the executable .runtime\Mediator-main.exe
+
+build .runtime/Mediator-main.exe: CXX_EXECUTABLE_LINKER__Mediator-main_Debug CMakeFiles/Mediator-main.dir/C3_Behavioralpatterns/16_Mediator/Mediator-main.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Mediator-main.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = .runtime\Mediator-main.exe
+  TARGET_IMPLIB = .archive\libMediator-main.dll.a
+  TARGET_PDB = Mediator-main.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Mediator
+
+
+#############################################
+# Order-only phony target for Mediator
+
+build cmake_object_order_depends_target_Mediator: phony || CMakeFiles/Mediator.dir
+
+build CMakeFiles/Mediator.dir/C3_Behavioralpatterns/16_Mediator/Mediator.cpp.obj: CXX_COMPILER__Mediator_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Design-Patterns/C3_Behavioralpatterns/16_Mediator/Mediator.cpp || cmake_object_order_depends_target_Mediator
+  DEP_FILE = CMakeFiles\Mediator.dir\C3_Behavioralpatterns\16_Mediator\Mediator.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Mediator.dir
+  OBJECT_FILE_DIR = CMakeFiles\Mediator.dir\C3_Behavioralpatterns\16_Mediator
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Mediator
+
+
+#############################################
+# Link the executable .runtime\Mediator.exe
+
+build .runtime/Mediator.exe: CXX_EXECUTABLE_LINKER__Mediator_Debug CMakeFiles/Mediator.dir/C3_Behavioralpatterns/16_Mediator/Mediator.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Mediator.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = .runtime\Mediator.exe
+  TARGET_IMPLIB = .archive\libMediator.dll.a
+  TARGET_PDB = Mediator.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Memento-main
+
+
+#############################################
+# Order-only phony target for Memento-main
+
+build cmake_object_order_depends_target_Memento-main: phony || CMakeFiles/Memento-main.dir
+
+build CMakeFiles/Memento-main.dir/C3_Behavioralpatterns/17_Memento/Memento-main.cpp.obj: CXX_COMPILER__Memento-main_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Design-Patterns/C3_Behavioralpatterns/17_Memento/Memento-main.cpp || cmake_object_order_depends_target_Memento-main
+  DEP_FILE = CMakeFiles\Memento-main.dir\C3_Behavioralpatterns\17_Memento\Memento-main.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Memento-main.dir
+  OBJECT_FILE_DIR = CMakeFiles\Memento-main.dir\C3_Behavioralpatterns\17_Memento
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Memento-main
+
+
+#############################################
+# Link the executable .runtime\Memento-main.exe
+
+build .runtime/Memento-main.exe: CXX_EXECUTABLE_LINKER__Memento-main_Debug CMakeFiles/Memento-main.dir/C3_Behavioralpatterns/17_Memento/Memento-main.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Memento-main.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = .runtime\Memento-main.exe
+  TARGET_IMPLIB = .archive\libMemento-main.dll.a
+  TARGET_PDB = Memento-main.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Template-main
+
+
+#############################################
+# Order-only phony target for Template-main
+
+build cmake_object_order_depends_target_Template-main: phony || CMakeFiles/Template-main.dir
+
+build CMakeFiles/Template-main.dir/C3_Behavioralpatterns/18_TemplateMethod/Template-main.cpp.obj: CXX_COMPILER__Template-main_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Design-Patterns/C3_Behavioralpatterns/18_TemplateMethod/Template-main.cpp || cmake_object_order_depends_target_Template-main
+  DEP_FILE = CMakeFiles\Template-main.dir\C3_Behavioralpatterns\18_TemplateMethod\Template-main.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Template-main.dir
+  OBJECT_FILE_DIR = CMakeFiles\Template-main.dir\C3_Behavioralpatterns\18_TemplateMethod
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Template-main
+
+
+#############################################
+# Link the executable .runtime\Template-main.exe
+
+build .runtime/Template-main.exe: CXX_EXECUTABLE_LINKER__Template-main_Debug CMakeFiles/Template-main.dir/C3_Behavioralpatterns/18_TemplateMethod/Template-main.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Template-main.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = .runtime\Template-main.exe
+  TARGET_IMPLIB = .archive\libTemplate-main.dll.a
+  TARGET_PDB = Template-main.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Iterator-main
+
+
+#############################################
+# Order-only phony target for Iterator-main
+
+build cmake_object_order_depends_target_Iterator-main: phony || CMakeFiles/Iterator-main.dir
+
+build CMakeFiles/Iterator-main.dir/C3_Behavioralpatterns/19_Iterator/Iterator-main.cpp.obj: CXX_COMPILER__Iterator-main_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Design-Patterns/C3_Behavioralpatterns/19_Iterator/Iterator-main.cpp || cmake_object_order_depends_target_Iterator-main
+  DEP_FILE = CMakeFiles\Iterator-main.dir\C3_Behavioralpatterns\19_Iterator\Iterator-main.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Iterator-main.dir
+  OBJECT_FILE_DIR = CMakeFiles\Iterator-main.dir\C3_Behavioralpatterns\19_Iterator
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Iterator-main
+
+
+#############################################
+# Link the executable .runtime\Iterator-main.exe
+
+build .runtime/Iterator-main.exe: CXX_EXECUTABLE_LINKER__Iterator-main_Debug CMakeFiles/Iterator-main.dir/C3_Behavioralpatterns/19_Iterator/Iterator-main.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Iterator-main.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = .runtime\Iterator-main.exe
+  TARGET_IMPLIB = .archive\libIterator-main.dll.a
+  TARGET_PDB = Iterator-main.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Person
+
+
+#############################################
+# Order-only phony target for Person
+
+build cmake_object_order_depends_target_Person: phony || CMakeFiles/Person.dir
+
+build CMakeFiles/Person.dir/C3_Behavioralpatterns/20_State/Person.cpp.obj: CXX_COMPILER__Person_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Design-Patterns/C3_Behavioralpatterns/20_State/Person.cpp || cmake_object_order_depends_target_Person
+  DEP_FILE = CMakeFiles\Person.dir\C3_Behavioralpatterns\20_State\Person.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Person.dir
+  OBJECT_FILE_DIR = CMakeFiles\Person.dir\C3_Behavioralpatterns\20_State
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Person
+
+
+#############################################
+# Link the executable .runtime\Person.exe
+
+build .runtime/Person.exe: CXX_EXECUTABLE_LINKER__Person_Debug CMakeFiles/Person.dir/C3_Behavioralpatterns/20_State/Person.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Person.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = .runtime\Person.exe
+  TARGET_IMPLIB = .archive\libPerson.dll.a
+  TARGET_PDB = Person.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target State-main
+
+
+#############################################
+# Order-only phony target for State-main
+
+build cmake_object_order_depends_target_State-main: phony || CMakeFiles/State-main.dir
+
+build CMakeFiles/State-main.dir/C3_Behavioralpatterns/20_State/State-main.cpp.obj: CXX_COMPILER__State-main_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Design-Patterns/C3_Behavioralpatterns/20_State/State-main.cpp || cmake_object_order_depends_target_State-main
+  DEP_FILE = CMakeFiles\State-main.dir\C3_Behavioralpatterns\20_State\State-main.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\State-main.dir
+  OBJECT_FILE_DIR = CMakeFiles\State-main.dir\C3_Behavioralpatterns\20_State
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target State-main
+
+
+#############################################
+# Link the executable .runtime\State-main.exe
+
+build .runtime/State-main.exe: CXX_EXECUTABLE_LINKER__State-main_Debug CMakeFiles/State-main.dir/C3_Behavioralpatterns/20_State/State-main.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\State-main.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = .runtime\State-main.exe
+  TARGET_IMPLIB = .archive\libState-main.dll.a
+  TARGET_PDB = State-main.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target State
+
+
+#############################################
+# Order-only phony target for State
+
+build cmake_object_order_depends_target_State: phony || CMakeFiles/State.dir
+
+build CMakeFiles/State.dir/C3_Behavioralpatterns/20_State/State.cpp.obj: CXX_COMPILER__State_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Design-Patterns/C3_Behavioralpatterns/20_State/State.cpp || cmake_object_order_depends_target_State
+  DEP_FILE = CMakeFiles\State.dir\C3_Behavioralpatterns\20_State\State.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\State.dir
+  OBJECT_FILE_DIR = CMakeFiles\State.dir\C3_Behavioralpatterns\20_State
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target State
+
+
+#############################################
+# Link the executable .runtime\State.exe
+
+build .runtime/State.exe: CXX_EXECUTABLE_LINKER__State_Debug CMakeFiles/State.dir/C3_Behavioralpatterns/20_State/State.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\State.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = .runtime\State.exe
+  TARGET_IMPLIB = .archive\libState.dll.a
+  TARGET_PDB = State.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ChainOfResponsibility-main
+
+
+#############################################
+# Order-only phony target for ChainOfResponsibility-main
+
+build cmake_object_order_depends_target_ChainOfResponsibility-main: phony || CMakeFiles/ChainOfResponsibility-main.dir
+
+build CMakeFiles/ChainOfResponsibility-main.dir/C3_Behavioralpatterns/21_ChainOfResponsibility/ChainOfResponsibility-main.cpp.obj: CXX_COMPILER__ChainOfResponsibility-main_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Design-Patterns/C3_Behavioralpatterns/21_ChainOfResponsibility/ChainOfResponsibility-main.cpp || cmake_object_order_depends_target_ChainOfResponsibility-main
+  DEP_FILE = CMakeFiles\ChainOfResponsibility-main.dir\C3_Behavioralpatterns\21_ChainOfResponsibility\ChainOfResponsibility-main.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ChainOfResponsibility-main.dir
+  OBJECT_FILE_DIR = CMakeFiles\ChainOfResponsibility-main.dir\C3_Behavioralpatterns\21_ChainOfResponsibility
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ChainOfResponsibility-main
+
+
+#############################################
+# Link the executable .runtime\ChainOfResponsibility-main.exe
+
+build .runtime/ChainOfResponsibility-main.exe: CXX_EXECUTABLE_LINKER__ChainOfResponsibility-main_Debug CMakeFiles/ChainOfResponsibility-main.dir/C3_Behavioralpatterns/21_ChainOfResponsibility/ChainOfResponsibility-main.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ChainOfResponsibility-main.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = .runtime\ChainOfResponsibility-main.exe
+  TARGET_IMPLIB = .archive\libChainOfResponsibility-main.dll.a
+  TARGET_PDB = ChainOfResponsibility-main.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Interpreter-main
+
+
+#############################################
+# Order-only phony target for Interpreter-main
+
+build cmake_object_order_depends_target_Interpreter-main: phony || CMakeFiles/Interpreter-main.dir
+
+build CMakeFiles/Interpreter-main.dir/C3_Behavioralpatterns/22_Interpreter/Interpreter-main.cpp.obj: CXX_COMPILER__Interpreter-main_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Design-Patterns/C3_Behavioralpatterns/22_Interpreter/Interpreter-main.cpp || cmake_object_order_depends_target_Interpreter-main
+  DEP_FILE = CMakeFiles\Interpreter-main.dir\C3_Behavioralpatterns\22_Interpreter\Interpreter-main.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Interpreter-main.dir
+  OBJECT_FILE_DIR = CMakeFiles\Interpreter-main.dir\C3_Behavioralpatterns\22_Interpreter
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Interpreter-main
+
+
+#############################################
+# Link the executable .runtime\Interpreter-main.exe
+
+build .runtime/Interpreter-main.exe: CXX_EXECUTABLE_LINKER__Interpreter-main_Debug CMakeFiles/Interpreter-main.dir/C3_Behavioralpatterns/22_Interpreter/Interpreter-main.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Interpreter-main.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = .runtime\Interpreter-main.exe
+  TARGET_IMPLIB = .archive\libInterpreter-main.dll.a
+  TARGET_PDB = Interpreter-main.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Element
+
+
+#############################################
+# Order-only phony target for Element
+
+build cmake_object_order_depends_target_Element: phony || CMakeFiles/Element.dir
+
+build CMakeFiles/Element.dir/C3_Behavioralpatterns/23_Visitor/Element.cpp.obj: CXX_COMPILER__Element_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Design-Patterns/C3_Behavioralpatterns/23_Visitor/Element.cpp || cmake_object_order_depends_target_Element
+  DEP_FILE = CMakeFiles\Element.dir\C3_Behavioralpatterns\23_Visitor\Element.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Element.dir
+  OBJECT_FILE_DIR = CMakeFiles\Element.dir\C3_Behavioralpatterns\23_Visitor
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Element
+
+
+#############################################
+# Link the executable .runtime\Element.exe
+
+build .runtime/Element.exe: CXX_EXECUTABLE_LINKER__Element_Debug CMakeFiles/Element.dir/C3_Behavioralpatterns/23_Visitor/Element.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Element.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = .runtime\Element.exe
+  TARGET_IMPLIB = .archive\libElement.dll.a
+  TARGET_PDB = Element.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Visitor-main
+
+
+#############################################
+# Order-only phony target for Visitor-main
+
+build cmake_object_order_depends_target_Visitor-main: phony || CMakeFiles/Visitor-main.dir
+
+build CMakeFiles/Visitor-main.dir/C3_Behavioralpatterns/23_Visitor/Visitor-main.cpp.obj: CXX_COMPILER__Visitor-main_unscanned_Debug F$:/CLion/Cpp_Development-Engineer_Design-Patterns/C3_Behavioralpatterns/23_Visitor/Visitor-main.cpp || cmake_object_order_depends_target_Visitor-main
+  DEP_FILE = CMakeFiles\Visitor-main.dir\C3_Behavioralpatterns\23_Visitor\Visitor-main.cpp.obj.d
+  FLAGS = -g -std=gnu++11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Visitor-main.dir
+  OBJECT_FILE_DIR = CMakeFiles\Visitor-main.dir\C3_Behavioralpatterns\23_Visitor
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Visitor-main
+
+
+#############################################
+# Link the executable .runtime\Visitor-main.exe
+
+build .runtime/Visitor-main.exe: CXX_EXECUTABLE_LINKER__Visitor-main_Debug CMakeFiles/Visitor-main.dir/C3_Behavioralpatterns/23_Visitor/Visitor-main.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Visitor-main.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = .runtime\Visitor-main.exe
+  TARGET_IMPLIB = .archive\libVisitor-main.dll.a
+  TARGET_PDB = Visitor-main.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target CMakeCXXCompilerId
@@ -132,13 +1056,125 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build AbstractFactory-main: phony .runtime/AbstractFactory-main.exe
+
+build AbstractFactory-main.exe: phony .runtime/AbstractFactory-main.exe
+
+build Adapter-main: phony .runtime/Adapter-main.exe
+
+build Adapter-main.exe: phony .runtime/Adapter-main.exe
+
+build Bridge-main: phony .runtime/Bridge-main.exe
+
+build Bridge-main.exe: phony .runtime/Bridge-main.exe
+
+build Builder-main: phony .runtime/Builder-main.exe
+
+build Builder-main.exe: phony .runtime/Builder-main.exe
+
 build CMakeCXXCompilerId: phony .runtime/CMakeCXXCompilerId.exe
 
 build CMakeCXXCompilerId.exe: phony .runtime/CMakeCXXCompilerId.exe
 
-build main: phony .runtime/main.exe
+build ChainOfResponsibility-main: phony .runtime/ChainOfResponsibility-main.exe
 
-build main.exe: phony .runtime/main.exe
+build ChainOfResponsibility-main.exe: phony .runtime/ChainOfResponsibility-main.exe
+
+build Command-main: phony .runtime/Command-main.exe
+
+build Command-main.exe: phony .runtime/Command-main.exe
+
+build Composite-main: phony .runtime/Composite-main.exe
+
+build Composite-main.exe: phony .runtime/Composite-main.exe
+
+build Decorator-main: phony .runtime/Decorator-main.exe
+
+build Decorator-main.exe: phony .runtime/Decorator-main.exe
+
+build Element: phony .runtime/Element.exe
+
+build Element.exe: phony .runtime/Element.exe
+
+build Facade-main: phony .runtime/Facade-main.exe
+
+build Facade-main.exe: phony .runtime/Facade-main.exe
+
+build Factory-main: phony .runtime/Factory-main.exe
+
+build Factory-main.exe: phony .runtime/Factory-main.exe
+
+build Flyweight-main: phony .runtime/Flyweight-main.exe
+
+build Flyweight-main.exe: phony .runtime/Flyweight-main.exe
+
+build Interpreter-main: phony .runtime/Interpreter-main.exe
+
+build Interpreter-main.exe: phony .runtime/Interpreter-main.exe
+
+build Iterator-main: phony .runtime/Iterator-main.exe
+
+build Iterator-main.exe: phony .runtime/Iterator-main.exe
+
+build Mediator: phony .runtime/Mediator.exe
+
+build Mediator-main: phony .runtime/Mediator-main.exe
+
+build Mediator-main.exe: phony .runtime/Mediator-main.exe
+
+build Mediator.exe: phony .runtime/Mediator.exe
+
+build Memento-main: phony .runtime/Memento-main.exe
+
+build Memento-main.exe: phony .runtime/Memento-main.exe
+
+build Observer-main: phony .runtime/Observer-main.exe
+
+build Observer-main.exe: phony .runtime/Observer-main.exe
+
+build Person: phony .runtime/Person.exe
+
+build Person.exe: phony .runtime/Person.exe
+
+build Prototype-main: phony .runtime/Prototype-main.exe
+
+build Prototype-main.exe: phony .runtime/Prototype-main.exe
+
+build Proxy: phony .runtime/Proxy.exe
+
+build Proxy-main: phony .runtime/Proxy-main.exe
+
+build Proxy-main.exe: phony .runtime/Proxy-main.exe
+
+build Proxy.exe: phony .runtime/Proxy.exe
+
+build Singleton-main: phony .runtime/Singleton-main.exe
+
+build Singleton-main.exe: phony .runtime/Singleton-main.exe
+
+build State: phony .runtime/State.exe
+
+build State-main: phony .runtime/State-main.exe
+
+build State-main.exe: phony .runtime/State-main.exe
+
+build State.exe: phony .runtime/State.exe
+
+build Strategy-main: phony .runtime/Strategy-main.exe
+
+build Strategy-main.exe: phony .runtime/Strategy-main.exe
+
+build SubjectImpl: phony .runtime/SubjectImpl.exe
+
+build SubjectImpl.exe: phony .runtime/SubjectImpl.exe
+
+build Template-main: phony .runtime/Template-main.exe
+
+build Template-main.exe: phony .runtime/Template-main.exe
+
+build Visitor-main: phony .runtime/Visitor-main.exe
+
+build Visitor-main.exe: phony .runtime/Visitor-main.exe
 
 # =============================================================================
 # Folder targets.
@@ -148,7 +1184,7 @@ build main.exe: phony .runtime/main.exe
 #############################################
 # Folder: F:/CLion/Cpp_Development-Engineer_Design-Patterns/cmake-build-debug
 
-build all: phony .runtime/main.exe .runtime/CMakeCXXCompilerId.exe
+build all: phony .runtime/Singleton-main.exe .runtime/Factory-main.exe .runtime/AbstractFactory-main.exe .runtime/Builder-main.exe .runtime/Prototype-main.exe .runtime/Adapter-main.exe .runtime/Proxy-main.exe .runtime/Proxy.exe .runtime/SubjectImpl.exe .runtime/Decorator-main.exe .runtime/Facade-main.exe .runtime/Bridge-main.exe .runtime/Composite-main.exe .runtime/Flyweight-main.exe .runtime/Observer-main.exe .runtime/Strategy-main.exe .runtime/Command-main.exe .runtime/Mediator-main.exe .runtime/Mediator.exe .runtime/Memento-main.exe .runtime/Template-main.exe .runtime/Iterator-main.exe .runtime/Person.exe .runtime/State-main.exe .runtime/State.exe .runtime/ChainOfResponsibility-main.exe .runtime/Interpreter-main.exe .runtime/Element.exe .runtime/Visitor-main.exe .runtime/CMakeCXXCompilerId.exe
 
 # =============================================================================
 # Built-in targets

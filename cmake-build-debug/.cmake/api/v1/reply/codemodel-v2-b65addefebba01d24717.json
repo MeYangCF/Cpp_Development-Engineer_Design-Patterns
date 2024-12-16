@@ -1,0 +1,321 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Cpp_Development-Engineer_Design-Patterns",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "AbstractFactory-main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-AbstractFactory-main-Debug-16d12d17e34d536dc542.json",
+					"name" : "AbstractFactory-main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Adapter-main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Adapter-main-Debug-e6de826a6297b56c2532.json",
+					"name" : "Adapter-main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Bridge-main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Bridge-main-Debug-fa8ba2c754b5dd85ba5a.json",
+					"name" : "Bridge-main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Builder-main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Builder-main-Debug-430074ce2c028cf3a489.json",
+					"name" : "Builder-main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CMakeCXXCompilerId::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CMakeCXXCompilerId-Debug-1747d3511c6ea07a078f.json",
+					"name" : "CMakeCXXCompilerId",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ChainOfResponsibility-main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ChainOfResponsibility-main-Debug-dc5358f93593f77f5e77.json",
+					"name" : "ChainOfResponsibility-main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Command-main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Command-main-Debug-6f9828aa258e97a60322.json",
+					"name" : "Command-main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Composite-main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Composite-main-Debug-0b5852d098eea959addb.json",
+					"name" : "Composite-main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Decorator-main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Decorator-main-Debug-b4a207656642f4531807.json",
+					"name" : "Decorator-main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Element::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Element-Debug-2f9ba2567b912783bc3b.json",
+					"name" : "Element",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Facade-main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Facade-main-Debug-c3de87ac9a0539f1dd81.json",
+					"name" : "Facade-main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Factory-main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Factory-main-Debug-e4f138ec5c4f14fdff1e.json",
+					"name" : "Factory-main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Flyweight-main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Flyweight-main-Debug-ab3a612d18f0a88742a5.json",
+					"name" : "Flyweight-main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Interpreter-main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Interpreter-main-Debug-ebb8c98a63605ee444f9.json",
+					"name" : "Interpreter-main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Iterator-main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Iterator-main-Debug-734f7031a8fa3782658c.json",
+					"name" : "Iterator-main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Mediator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Mediator-Debug-099fa39da24dc0ccc7e9.json",
+					"name" : "Mediator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Mediator-main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Mediator-main-Debug-1154f5cd6c54cfafbf79.json",
+					"name" : "Mediator-main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Memento-main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Memento-main-Debug-a05402fb66dde0f010cd.json",
+					"name" : "Memento-main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Observer-main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Observer-main-Debug-9dbf1e1208966641a089.json",
+					"name" : "Observer-main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Person::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Person-Debug-11d45f846fa7324b101b.json",
+					"name" : "Person",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Prototype-main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Prototype-main-Debug-15fb2130786cef1082bc.json",
+					"name" : "Prototype-main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Proxy::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Proxy-Debug-bad721bea53bc6b2ebee.json",
+					"name" : "Proxy",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Proxy-main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Proxy-main-Debug-46c0adef5a8c5494ef6e.json",
+					"name" : "Proxy-main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Singleton-main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Singleton-main-Debug-d9066d22ccfcc5de4b14.json",
+					"name" : "Singleton-main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "State::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-State-Debug-4c4131b4035c0ef30317.json",
+					"name" : "State",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "State-main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-State-main-Debug-549e7f90f94475a6dc0f.json",
+					"name" : "State-main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Strategy-main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Strategy-main-Debug-28ee0630f2babdb0ab72.json",
+					"name" : "Strategy-main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SubjectImpl::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SubjectImpl-Debug-1da84a95d2845580f6cd.json",
+					"name" : "SubjectImpl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Template-main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Template-main-Debug-2af706205ba55ab582fd.json",
+					"name" : "Template-main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Visitor-main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Visitor-main-Debug-51f0a1da3a3e2a499dc7.json",
+					"name" : "Visitor-main",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "F:/CLion/Cpp_Development-Engineer_Design-Patterns/cmake-build-debug",
+		"source" : "F:/CLion/Cpp_Development-Engineer_Design-Patterns"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
